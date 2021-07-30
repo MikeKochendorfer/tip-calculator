@@ -15,30 +15,58 @@
   </style>
 </head>
 <body>
+  <img src="images/logo.svg" alt="spliter logo">
+  <div class="calc-wrapper">
+    <div class="content-left">
+      <h1>Bill</h1>
+      <form>
+        <label for="amount">
+          <input name="amount" value="0">
+        </label>
+      </form>
 
-  Bill
+      <h1>Select Tip %</h1>
+      <div class="tip-percent-grid">
+        <button class="tip-pct">5%</button>
+        <button class="tip-pct">10%</button>
+        <button class="tip-pct">15%</button>
+        <button class="tip-pct">25%</button>
+        <button class="tip-pct">50%</button>
+        <button class="custom-tip">Custom</button>
+      </div>
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
+      <h1>Number of People</h1>
+      <form>
+        <label>
+          <input name="number-of-people" value="0">
+        </label>
+      </form>
+    </div>
 
-  Number of People
+    <div class="content-right">
+      <div class="tip-per-person">
+        <h2>
+          Tip Amount
+          <span>/ person</span>
+        </h2>
+        <p>$0.00</p>
+      </div>
+      
+      <div class="amount-per-person">
+        <h2>
+          Total
+          / person
+        </h2>
+        <p>$0.00</p>
+      </div>
 
-  Tip Amount
-  / person
-
-  Total
-  / person
-
-  Reset
+      <button>Reset</button>
+    </div>
+</div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://mikekochendorfer.github.io/tip-calculator/">Michael Kochendorfer</a>.
   </div>
 </body>
 </html>
